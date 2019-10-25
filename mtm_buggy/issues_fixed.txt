@@ -1,0 +1,12 @@
+mistakes fixed:
+line 42 - attempt to calculate the strlen of NULL
+changed:
+char* max = strings[0] = NULL; -> char* max = strings[0];
+
+line 75 - attempt to access data outside of the bounds of an array
+changed:
+printf("The maximal word lexicographically is: %s\n", words[size]); -> printf("The maximal word lexicographically is: %s\n", words[size - 1]);
+
+line 56 - infinite loop due to same word comparing issue
+changed:
+if (strcmp(strings[i], strings[i + 1]) >= 0) { -> if (strcmp(strings[i], strings[i + 1]) > 0) {
