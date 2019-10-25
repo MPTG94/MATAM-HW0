@@ -2,13 +2,30 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//==============================================================================
+
+// Prints message to get the size of the input. 
 void printEnterInputSizeMessage();
+
+// Prints message to get a new number from input.
 void printEnterNumbersMessage();
+
+// Prints an error message due to an invalid input size.
 void printInvalidSizeMessage();
+
+// Prints an error message due to an invalid input number.
 void printInvalidNumberMessage();
+
+// Prints a message showing a found base 2 exponent.
 void printFoundExponentMessage(int n, int exponent);
+
+// Prints a message with the sum of all input exponents.
 void printTotalExponentSum(int n);
+
+// Calculated the base 2 exponent of an input number.
 int getExponentInBaseTwo(int x);
+
+//==============================================================================
 
 int main()
 {
