@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#pragma warning(disable : 4996)
 void printEnterInputSizeMessage();
 void printEnterNumbersMessage();
 void printInvalidSizeMessage();
