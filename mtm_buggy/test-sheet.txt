@@ -1,0 +1,4 @@
+./mtm_buggy < test1.in > out1.txt;
+./mtm_buggy < test2.in > out2.txt;
+diff test1.out out1.txt;
+diff test2.out out2.txt;
