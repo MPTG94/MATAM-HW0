@@ -1,0 +1,8 @@
+./mtm_tot < test1.in > out1.txt;
+./mtm_tot < test2.in > out2.txt;
+./mtm_tot < test3.in > out3.txt;
+./mtm_tot < test4.in > out4.txt;
+diff test1.out out1.txt;
+diff test2.out out2.txt;
+diff test3.out out3.txt;
+diff test4.out out4.txt;
